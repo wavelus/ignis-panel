@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ignis-panel
+  labels:
+    app: ignis-panel
+    tier: frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ignis-panel
+  template:
+    metadata:
+      labels:
+        app: ignis-panel
+    spec:
+      containers:
+      - name: ignis-panel
+        image: ignis-panel:latest
+        ports:
+        - containerPort: 80
