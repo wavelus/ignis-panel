@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
-    <Header></Header>
-    <Navigation></Navigation>
-    <Main></Main>
-    <Footer></Footer>
-  </div>
+    <div id="app">
+        <Header></Header>
+        <Navigation></Navigation>
+        <Main></Main>
+        <Footer></Footer>
+    </div>
 </template>
 
 <script>
@@ -14,15 +14,14 @@ import Main from "./components/pages/Main.vue";
 import Navigation from "./components/shared/Navigation.vue";
 
 export default {
-  name: "app",
-  components: {
-    Header,
-    Footer,
-    Main,
-    Navigation
-  }
+    name: "app",
+    components: {
+        Header,
+        Footer,
+        Main,
+        Navigation
+    }
 };
 </script>
 
-<style>
-</style>
+<style></style>
