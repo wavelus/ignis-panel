@@ -51,6 +51,7 @@ node_modules
 build
 npm-debug.log
 .env
+dist
 
 # Exclude for VSCode
 .vscode

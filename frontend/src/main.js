@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import BootstrapVue from "bootstrap-vue";
 
-import "./custom.scss";
+import "./scss/custom.scss";
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
