@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="margin-top:30px">
+    <div class="container">
         <div class="row">
             <div class="col-sm-4">
                 <h3>Some Links</h3>

@@ -1,3 +1,6 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 $enable-shadows: true;
 $enable-gradients: true;
 $grid-breakpoints: (
@@ -8,5 +11,6 @@ $grid-breakpoints: (
   xl: 1234px
 );
 
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+body {
+    margin: 0;
+}

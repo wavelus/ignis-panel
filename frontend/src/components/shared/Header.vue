@@ -1,6 +1,6 @@
 <template>
     <header class="jumbotron text-center" id="ignis-panel-header">
-        <h1>ignis-panel</h1>
+        <h1>ignis-panel-headers</h1>
     </header>
 </template>
 

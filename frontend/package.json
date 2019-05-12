@@ -5,15 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 9000 --ignore=node_modules"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.19",
-    "core-js": "^2.6.5",
-    "jquery": "^3.4.1",
-    "npm-watch": "^0.6.0",
-    "serve": "^11.0.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6"
   },
@@ -23,11 +20,16 @@
     "@vue/cli-service": "^3.7.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "file-loader": "^3.0.1",
+    "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
+    "npm-watch": "^0.6.0",
     "sass-loader": "^7.1.0",
+    "serve": "^11.0.0",
     "style-loader": "^0.23.1",
     "vue-template-compiler": "^2.5.21"
   },
