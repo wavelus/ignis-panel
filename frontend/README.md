@@ -1,4 +1,4 @@
-# ignis-panel
+# frontend3
 
 ## Project setup
 ```

@@ -1,8 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
-        <a class="navbar-brand" href="#">
-            <img id="ignis-logo" src="../../assets/ignis_logo.png" />
-        </a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <button
             class="navbar-toggler"
             type="button"
@@ -12,18 +9,16 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <router-link to="/" class="navbar-brand"><strong>ignis</strong></router-link>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <router-link to="/" class="nav-link">Strona główna</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <router-link to="/members" class="nav-link">Członkowie</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <b-link class="nav-link" to="home">Link</b-link>
+                    <router-link to="/about" class="nav-link">O nas</router-link>
                 </li>
             </ul>
         </div>
@@ -31,11 +26,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+    name: 'NavBar'
+}
 </script>
 
 <style>
-#ignis-logo {
-    height: 2rem;
-}
+
 </style>

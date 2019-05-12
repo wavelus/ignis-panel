@@ -1,27 +1,23 @@
 <template>
-    <div id="app">
+    <div id="app" class="d-flex h-100 flex-column">
         <Header></Header>
-        <Navigation></Navigation>
-        <Main></Main>
+        <NavBar></NavBar>
+        <router-view/>
         <Footer></Footer>
     </div>
 </template>
 
 <script>
-import Footer from "./components/shared/Footer.vue";
-import Header from "./components/shared/Header.vue";
-import Main from "./components/pages/Main.vue";
-import Navigation from "./components/shared/Navigation.vue";
+import Header from '@/components/shared/Header.vue'
+import Footer from '@/components/shared/Footer.vue'
+import NavBar from '@/components/shared/NavBar.vue'
 
 export default {
-    name: "app",
+    name: 'App',
     components: {
         Header,
         Footer,
-        Main,
-        Navigation
+        NavBar
     }
-};
+}
 </script>
-
-<style></style>

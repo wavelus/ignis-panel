@@ -1,15 +1,17 @@
 <template>
-    <header class="jumbotron text-center" id="ignis-panel-header">
-        <h1>ignis-panel-headers</h1>
+    <header id="header" class="jumbotron">
+        <h1>System do zarządzania OSP</h1>
     </header>
 </template>
 
 <script>
-export default {};
+export default {
+    name: 'Header'
+}
 </script>
 
-<style>
-#ignis-panel-header {
-    margin-bottom: 0;
-}
+<style scoped>
+    #header {
+        margin-bottom: 0;
+    }
 </style>
