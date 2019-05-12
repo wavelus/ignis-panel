@@ -39,8 +39,8 @@
                     ></b-form-input>
                 </b-form-group>
 
-                <b-button type="submit" variant="primary">Dodaj</b-button>
-                <b-button type="reset" variant="danger">Wyczyść</b-button>
+                <b-button type="submit" variant="primary">{{ buttonLabel }}</b-button>
+                <b-button type="reset" variant="danger">Resetuj</b-button>
             </b-form>
 
 
@@ -54,7 +54,7 @@
         props:{
             buttonLabel: {
                 type: String,
-                default: 'Dodaj użytkownika'
+                default: 'Dodaj'
             },
             firefighterData:{
                 type: Object,
@@ -100,13 +100,6 @@
                     this.form.surname = this.firefighterData.surname;
                     this.form.age = this.firefighterData.age;
             }
-            // ,
-            // resetModal(){
-            //     // this.form.name='';
-            //     // this.form.age='';
-            //     // this.form.surname='';
-            //     this.readFirefighterData();
-            // }
         }
     }
 </script>

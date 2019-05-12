@@ -1,5 +1,5 @@
 <template>
-    <header id="header" class="jumbotron">
+    <header id="header" class="jumbotron text-center">
         <h1>System do zarządzania OSP</h1>
     </header>
 </template>
