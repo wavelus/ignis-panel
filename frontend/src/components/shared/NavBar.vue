@@ -8,6 +8,7 @@
             <b-navbar-nav>
                 <b-nav-item to="/">Strona główna</b-nav-item>
                 <b-nav-item to="/members">Członkowie</b-nav-item>
+                <b-nav-item to="/equipment">Sprzęt</b-nav-item>
                 <b-nav-item to="/about">O nas</b-nav-item>
             </b-navbar-nav>
 
