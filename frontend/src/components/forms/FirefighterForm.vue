@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-button v-b-modal="this.form.id">Dodaj strażaka</b-button>
+        <b-button v-b-modal="this.form.id">{{buttonLabel}}</b-button>
 
         <b-modal
             :id="this.form.id"
@@ -52,6 +52,10 @@
 <script>
     export default {
         props:{
+            buttonLabel: {
+                type: String,
+                default: 'Dodaj użytkownika'
+            },
             firefighterData:{
                 type: Object,
                 default(){
