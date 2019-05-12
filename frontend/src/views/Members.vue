@@ -1,6 +1,8 @@
 <template>
   <main role="main" class="flex-shrink-0">
+
       <div class="container">
+          <FirefighterForm class="float-right" buttonLabel="Dodaj członka"></FirefighterForm>
           <p class="lead">Człownkowie</p>
           <MembersList></MembersList>
       </div>
@@ -9,8 +11,9 @@
 
 <script>
     import MembersList from "../components/lists/MembersList"
+    import FirefighterForm from "../components/forms/FirefighterForm"
     export default {
-        components: {MembersList}
+        components: {MembersList, FirefighterForm}
     }
 </script>
 

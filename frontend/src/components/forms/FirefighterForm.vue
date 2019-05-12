@@ -86,9 +86,7 @@
             this.form.age = this.firefighterData.age;
         },
         methods: {
-            onSubmit(evt) {
-                evt.preventDefault();
-                alert(JSON.stringify(this.form));
+            onSubmit() {
             },
             onReset(evt) {
                 evt.preventDefault()

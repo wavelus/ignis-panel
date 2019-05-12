@@ -2,6 +2,7 @@
   <main role="main" class="flex-shrink-0">
       <div class="container">
           <p class="lead">Sprzęt</p>
+          <EquipmentList></EquipmentList>
       </div>
   </main>
 </template>
@@ -12,3 +13,9 @@ main > .container {
 }
 </style>
 
+<script>
+    import EquipmentList from "../components/lists/EquipmentList";
+    export default {
+        components: {EquipmentList}
+    }
+</script>
