@@ -1,8 +1,8 @@
 <template>
   <main role="main" class="flex-shrink-0">
-      <div class="container">
-          <p class="lead">Profil użytkownika</p>
-      </div>
+    <div class="container">
+      <p class="lead">Profil użytkownika</p>
+    </div>
   </main>
 </template>
 
